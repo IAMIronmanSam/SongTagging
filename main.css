@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+
+body{
+  
+  background-image:url('3536ipod4.jpg');
+  background-attachment: scroll
+}
+header, section, footer, aside, nav, article, hgroup{
+  display : block;
+}
+#skin{
+  width: 700px; /*of whole player*/
+  margin: 10px auto; /*from top*/
+  padding: 5px;
+  background: #73ED47;
+  border: 4px solid black;
+  border-radius: 10px; /*rounded corners*/
+ box-shadow: 10px 10px 5px rgb(110,110,110);
+}
+nav{
+  margin: 5px 10px; /*control bar on bottom*/
+ text-align: center;
+ font:bold 30px ;
+	text-shadow:rgb(110,110,110) 3px 3px 5px;
+}
+#buttons{
+  float: left; 
+  width: 70px;
+  height: 22px;
+}
+
+#side{
+	 display:list-item;
+          
+  float: left;
+   
+  width: 70px;
+  height: 22px;
+  background-color:#ccc; min-height:400px;
+}
+#skin2{
+  width: 70px; /*of whole player*/
+  margin: 10px auto; /*from top*/
+  padding: 5px;
+  
+  background: #73ED47;
+  border: 4px solid black;
+  border-radius: 10px; /*rounded corners*/
+ 
+}
+

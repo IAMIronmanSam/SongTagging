@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style>
+	body
+	{
+		width: 10px;
+		height: 50px;
+		margin-bottom: 5px;
+		background: #999999;
+	}
+	div
+	{
+		width: 70 px;
+		height: 120px;
+		background:#73ED47;
+		padding-bottom: 20px;
+		padding-top: 10px;
+		margin-bottom: 10px;
+		
+	}
+	
+</style>
+</head>
+<body>
+	Click Me
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<script>
+		$(document.body).click(function()
+		{
+			if($("div:first").is(":hidden"))
+			{
+				$("div").slideDown("slow");
+			}
+			else
+			{
+				$("div").hide();
+			}
+		});
+	</script>
+
+</body>
+</html>

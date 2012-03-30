@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.7.2.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".btn1").click(function(){
+    $("p").slideUp();
+document.getElementById('b1').style.visibility = 'hidden'
+document.getElementById('b2').style.visibility = 'visible'
+  });
+  $(".btn2").click(function(){
+    $("p").slideDown();
+document.getElementById('b1').style.visibility = 'visible'
+document.getElementById('b2').style.visibility = 'hidden'
+  });
+});
+</script>
+</head>
+<body>
+<p>This is a paragraph.</p>
+<div id='b1'>
+<button class="btn1">Slide up</button></div>
+<div id='b2'><button class="btn2">Slide down</button></div>
+</body>
+</html>
